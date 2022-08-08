@@ -13,7 +13,7 @@ class AppwriteProvider extends ChangeNotifier {
   void _init() {
     _client = Client();
     _client
-        .setEndpoint("[ENDPOINT]")  // specify you appwrite server endpoint
+        .setEndpoint("[ENDPOINT]")  // specify your appwrite server endpoint
         .setProject("[PROJECT_ID]") // your project id
         .setSelfSigned(status: true); // set self signed to true in dev
     _account = Account(_client);
