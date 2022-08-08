@@ -1,4 +1,4 @@
-### Implementing Email-Password authentication using Appwrite
+### Email-Password authentication using Appwrite
 
 
 ```dart
